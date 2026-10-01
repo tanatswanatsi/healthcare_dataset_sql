@@ -8,3 +8,5 @@ GROUP BY `Medical Condition`
 ORDER BY total_billing DESC
 LIMIT 5;
 
+-- Most costly medical conditions in their order diabetes , arthritis , obesity , asthma and hypertension
+
