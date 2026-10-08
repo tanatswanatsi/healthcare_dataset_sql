@@ -21,14 +21,14 @@ GOAL : To identify which medical conditions place the greatest financial burden 
 -
 - QUERY 1 for filtering data.sql` — [Most costly medical condition : Identified which medical conditions have the highest total billing amounts to understand which conditions drive the most cost for the healthcare system.]
 - `QUERY 2 for filtering data.sql` — [Most expensive condition per patient : Identified which conditions have the highest AVG cost per patient]
-- `QUERY 3 for filtering data.sql` — [Top 3 most costly conditions to treat : Identified the top 3 with which ones have the highest billing amount]
+- `QUERY 3 for filtering data.sql` — [Top 2 most costly conditions to treat : Identified the top 2 with which ones have the highest billing amount]
 
 Each query has a matching result screenshot (`QUERY 1 table.jpeg`, `QUERY 2 table.jpeg`, `QUERY 3 table.jpeg`).
 
 ## Key Findings
 - [Findings from QUERY 1 : Diabetes has the highest total billing overall of $ 215,08 Million.]
 - [Finding from Query 2 :Obesity has the highest average billing per patient. ]
-- [Finding from Query 3 : Most costly medical conditions in their order diabetes and arthritis]
+- [Finding from Query 3 : Most costly medical conditions in their order diabetes and arthritis as they have high billing totals and more number of patients.]
 
 ## Tools Used
 MySQL Workbench
