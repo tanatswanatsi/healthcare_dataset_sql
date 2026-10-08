@@ -1,4 +1,4 @@
--- TOP 5  MOST COSTLY MEDICAL CONDITIONS TO TREAT OVERALL
+-- TOP 3  MOST COSTLY MEDICAL CONDITIONS TO TREAT OVERALL
 
 SELECT `Medical Condition`,
        COUNT(*) AS number_of_patients,
@@ -8,5 +8,5 @@ GROUP BY `Medical Condition`
 ORDER BY total_billing DESC
 LIMIT 5;
 
--- Most costly medical conditions in their order diabetes , arthritis , obesity , asthma and hypertension
+-- Most costly medical conditions in their order diabetes , arthritis and obesity 
 
